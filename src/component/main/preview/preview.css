@@ -1,0 +1,184 @@
+.preview-block {
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.preview {
+    display: block;
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+    background-color: rgb(128, 128, 128);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.preview-block:-webkit-full-screen .preview {
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+}
+    
+.preview-block:-moz-full-screen .preview{
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+}
+    
+.preview-block:-ms-fullscreen .preview{
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+}
+    
+.preview-block:fullscreen .preview{
+    width: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.preview-input {
+    display: block;
+    height: 15px;
+    width: 300px;
+    -webkit-appearance: none;
+    border-radius: 7px;
+    background: rgb(182, 177, 177);
+}
+
+.preview-input:focus {
+    outline: none;
+}
+
+.preview-input::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 15px;
+    cursor: pointer;
+    background: rgb(182, 177, 177);
+    border-radius: 7px;
+}
+
+.preview-input::-webkit-slider-thumb {
+    height: 15px;
+    width: 40px;
+    border-radius: 7px;
+    background: rgb(18, 223, 189);
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.preview-input:focus::-webkit-slider-runnable-track {
+    background: rgb(182, 177, 177);
+}
+
+.preview-input::-moz-range-track {
+    width: 300px;
+    height: 15px; 
+    background: rgb(182, 177, 177);
+    border-radius: 7px;
+    cursor: pointer; 
+}
+
+.preview-input::-moz-range-thumb {
+    height: 15px;
+    width: 40px;
+    border-radius: 7px;
+    background: rgb(18, 223, 189);
+    cursor: pointer;
+}
+
+.preview-input::-ms-track {
+    width: 300px;
+    height: 15px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+.preview-input::-ms-fill-lower {
+    background: rgb(182, 177, 177);
+}
+
+.preview-input::-ms-fill-upper {
+    background: rgb(182, 177, 177);
+}
+
+.preview-input::-ms-thumb {
+    height: 15px;
+    width: 40px;
+    border-radius: 7px;
+    background: rgb(18, 223, 189);
+    cursor: pointer;
+}
+
+.preview-input:focus::-ms-fill-lower {
+    background: rgb(182, 177, 177);
+}
+
+.preview-input:focus::-ms-fill-upper {
+    background: rgb(182, 177, 177);
+}
+
+.preview-fps {
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.541327);
+}
+
+.preview-fullscreen {
+    width: 90px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    background-color: white;
+    color: rgb(19, 151, 129);
+    border: 2px solid rgb(19, 151, 129);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+:fullscreen::backdrop {
+    background-color: white;
+}
+
+:-webkit-full-screen::-webkit-backdrop {
+    background-color: white;
+}
+
+:-moz-full-screen::-moz-backdrop {
+    background-color: white;
+}
+
+:-ms-fullscreen::-ms-backdrop {
+    background-color: white; /* dark blue */
+}
+
+.export {
+    display: flex;
+}
+
+.export__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.541327);
+}
+
+.export__format {
+    width: 50px;
+    height: 25px;
+    margin-left: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    background-color: rgb(19, 151, 129);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}

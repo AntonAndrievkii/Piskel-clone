@@ -1,0 +1,28 @@
+.tools__tool {
+    display: flex;
+    width: 100%;
+    height: 55px;
+    padding: 10px 0 0 20px;
+    cursor: pointer;
+}
+
+.tools__tool:nth-child(2) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+  
+.tools__tool-img {
+    width: 25px;
+    height: 25px;
+    margin-right: 35px;
+}
+  
+.tools__tool-name {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.541327);
+}
+
+.tools__tool_active {
+    background-color: #dcdcdc;
+}

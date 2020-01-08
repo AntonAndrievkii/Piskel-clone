@@ -1,0 +1,45 @@
+.general {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:100%;
+    height: 600px;
+    background-color: cadetblue;
+    padding: 40px 40px 40px 70px;
+}
+
+.general__description {
+    padding-top: 110px;
+}
+
+.general__headline {
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    line-height: 55px;
+    color: white;
+}
+
+.general__text {
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    color: rgb(194, 189, 189);
+}
+
+.general__create-btn {
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 15px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.general__img {
+    display: block;
+    width: 900px;
+    margin-top: 40px;
+}

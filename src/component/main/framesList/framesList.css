@@ -1,0 +1,23 @@
+.frames {
+    list-style-type: none;
+}
+
+.frames-add{
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    padding-top: 8px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgb(19, 151, 129);
+    border: 2px solid rgb(19, 151, 129);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.frames-add:hover {
+    background-color: rgb(19, 151, 129);
+    color: white;
+}

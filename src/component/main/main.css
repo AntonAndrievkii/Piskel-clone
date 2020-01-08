@@ -1,0 +1,10 @@
+.main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 40px 30px 0 30px;
+}
+  
+.main__tools-and-colors {
+    width: 230px;
+}

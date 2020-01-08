@@ -1,0 +1,95 @@
+.main__canvas {
+    width: 512px;
+    height: 512px;
+    margin-bottom: 10px;
+    image-rendering: pixelated;
+    background-color: rgb(128, 128, 128);
+}
+
+.main__size-label {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+.main__size-input {
+    display: block;
+    height: 15px;
+    width: 512px;
+    -webkit-appearance: none;
+    border-radius: 7px;
+    background: rgb(182, 177, 177);
+}
+
+.main__size-input:focus {
+    outline: none;
+}
+
+.main__size-input::-webkit-slider-runnable-track {
+    width: 512px;
+    height: 15px;
+    cursor: pointer;
+    background: rgb(182, 177, 177);
+    border-radius: 7px;
+}
+
+.main__size-input::-webkit-slider-thumb {
+    height: 15px;
+    width: 70px;
+    border-radius: 7px;
+    background: rgb(18, 223, 189);
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+.main__size-input:focus::-webkit-slider-runnable-track {
+    background: rgb(182, 177, 177);
+}
+
+.main__size-input::-moz-range-track {
+    width: 512px;
+    height: 15px; 
+    background: rgb(182, 177, 177);
+    border-radius: 7px;
+    cursor: pointer; 
+}
+
+.main__size-input::-moz-range-thumb {
+    height: 15px;
+    width: 40px;
+    border-radius: 7px;
+    background: rgb(18, 223, 189);
+    cursor: pointer;
+}
+
+.main__size-input::-ms-track {
+    width: 512px;
+    height: 15px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+.main__size-input::-ms-fill-lower {
+    background: rgb(182, 177, 177);
+}
+
+.main__size-input::-ms-fill-upper {
+    background: rgb(182, 177, 177);
+}
+
+.main__size-input::-ms-thumb {
+    height: 15px;
+    width: 70px;
+    border-radius: 7px;
+    background: rgb(18, 223, 189);
+    cursor: pointer;
+}
+
+.main__size-input:focus::-ms-fill-lower {
+    background: rgb(182, 177, 177);
+}
+
+.main__size-input:focus::-ms-fill-upper {
+    background: rgb(182, 177, 177);
+}

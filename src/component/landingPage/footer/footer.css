@@ -1,0 +1,11 @@
+.footer {
+    width: 100%;
+    padding: 20px 65px;
+    background-color: dimgray;
+}
+
+.footer__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: white;
+}

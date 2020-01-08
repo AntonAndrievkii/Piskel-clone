@@ -1,0 +1,25 @@
+.sizes__size {
+    width: 50px;
+    height: 27px;
+    margin-right: 10px;
+    padding: 2px 0px 0px 19px;
+    background-color: rgb(18, 223, 189);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sizes__size:hover {
+    background-color: rgb(26, 100, 88);
+}
+
+
+.sizes__size-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    color: white;
+}
+
+.sizes__size-active {
+    background-color: rgb(26, 100, 88);
+}
